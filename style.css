@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+.navbar{
+    height: auto;
+    width: auto;
+    background-color: #1A0B2E;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    
+
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+.list-item{
+    text-decoration: none;
+    color: white;
+}
+.tech{
+    color: white;
+
+}
+.wave{
+  background: linear-gradient(
+    90deg,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.primary-button{
+      background: linear-gradient(
+    90deg,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+  );
+  padding: 8px;
+  border-radius: 15px;
+}
+.button-text{
+    color:white;
+    
+}
+.banner{
+
+    background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 760px;
+    width:100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-direction: column;
+
+}
+.banner-img{
+    background-image: url("./B13-A02-TechWave/assets/hero-circle.png");
+        background-size: cover;
+    background-position: center;
+    height: 360px;
+    width:360px;
+       display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.mic-icon{
+
+    width: 100px;
+    height: auto;
+
+}
+.banner-descript{
+    
+}
+
+
