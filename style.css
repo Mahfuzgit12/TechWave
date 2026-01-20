@@ -92,17 +92,22 @@ body{
        display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   
 }
 .mic-icon{
 
     width: 100px;
     height: auto;
-    margin-right: 25px;
+    margin-right: 15px;
+    margin-left: 5px;
  
 
 }
-.banner-heading,.mic-icon{
+.banner-heading{
+    position: absolute;
+    top: 20px;
+    right: 20px;
 
 }
 .banner-descript{
@@ -294,6 +299,19 @@ padding-bottom: 10px;
     height: 250px;
     border-radius: 12px;
 }
+/* .video {
+      position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+} */
+ .video{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
 
 
 /* host-section................ */
@@ -309,7 +327,7 @@ padding-bottom: 10px;
 
 .host-info{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     background-color: #250D44;
     margin: 60px;
     padding: 15px;
