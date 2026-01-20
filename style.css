@@ -27,6 +27,7 @@ body{
     
 
 }
+
 .nav-list{
     display: flex;
     list-style-type: none;
@@ -97,6 +98,7 @@ body{
 
     width: 100px;
     height: auto;
+    margin-right: 25px;
  
 
 }
@@ -112,17 +114,21 @@ body{
     font-weight: 900;
     font-size:50px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 .banner-descript p{
     color: white;
     font-size: 16px;
     text-align: center;
+    padding: 10px;
 }
 .banner-button{
  display: flex;
  gap: 20px;
  align-items: center;
  justify-content: center;
+ padding-top: 15px;
 }
 .listen-button{
           background: linear-gradient(
@@ -137,24 +143,29 @@ body{
   gap: 7px;
   
   
-
-
-  
 }
 .listen-text{
     color: white;
-    padding-top: 3px;
+    padding: 5px;
    
+}
+.banner-img h4{
+    color: black;
+    background-color: #00FF88;
+    border-radius: 10px;
+    padding: 5px;
+    
 }
 .subscribe-button{
     background-color: #1A0B2E;
-    padding: 3px;
+    padding: 8px 12px;
     border-radius: 15px;
     border: 1px solid #00FF88;
 }
 .subscribe-text{
     color: #00FF88;
 }
+
 
 /* about-section............................. */
 
@@ -168,16 +179,29 @@ body{
 .about-description h1{
     font-weight: bold;
     font-size: 48px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .about-text-part{
     color: #00FF88;
     font-weight: 900;
     font-size: 48px;
 }
+.p1-about{
+    padding-top: 3px;
+    padding-bottom: 20px
+}
+.p2-about{
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
 
 .about-info{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 0px 20px;
 
 }
 
@@ -197,15 +221,22 @@ body{
    grid-auto-rows: minmax(180px, auto);
   gap: 20px;
 
-    
-  
+}
+.choose-heading h1{
+    text-align: center;
+    padding-bottom: 23px;
 }
 .choose-info{
     background-color: #2D1053;
     border-radius: 20px;
     padding: 8px;
-    text-align: start
+    text-align: start;
+    padding: 30px;
+    padding-top: 60px;
    
+}
+.choose-info h2{
+    padding: 15px 0px;
 }
 .wide{
     grid-row: span 2;
@@ -225,21 +256,38 @@ body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-      padding: 80px 90px;
+    padding: 80px 90px;
     
 
 }
-.feature-title{
-
+.feature-title h1{
+text-align: center;
+padding-bottom: 10px;
 }
 .feature-card{
     display: grid;
      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    gap: 30px;
+   
+   
 
 }
 .feature-card-list{
     overflow: hidden;
+    border-radius: 15px;
+    background-color: #1e083a;
+}
+.feature-card-list h2{
+    padding: 10px 0px;
+}
+.feature-card-list p{
+    padding-bottom: 10px;
+}
+.feature-card-list h4{
+    padding-bottom: 10px;
+}
+.feature-min{
+    padding:0px 5px;
 }
 .feature-card-list iframe{
     width: 400px;
@@ -258,9 +306,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .host-info{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     background-color: #250D44;
     margin: 60px;
     padding: 15px;
@@ -274,8 +323,17 @@ body{
 }
 .host-description{
     grid-column: span 4;
+    
 }
-
+.host-description h2{
+    padding: 10px 0px;
+}
+.host-description p{
+    padding-bottom: 10px;
+}
+.host-img img{
+ padding: 0px 10px;
+}
 /* footer.......... */
 footer{
     background-image: url("./B13-A02-TechWave/assets/footer-bg.png");
@@ -301,8 +359,22 @@ footer p{
    display: grid;
    grid-template-columns: repeat(4,1fr);
    gap: 50px;
+   text-align: center;
+   padding-bottom: 15px;
 
 
+
+}
+.footer-img-bar{
+  
+    color: white;
+}
+.footer-c{
+    padding: 35px 0px;
+    
+}
+.footer-title{
+    padding: 30px 0px;
 }
 
 
@@ -359,6 +431,11 @@ footer p{
    
 }
 
+}
+@media screen and (min-width:577px) {
+     .button2{
+   display: none;
+    }
 }
 
 
