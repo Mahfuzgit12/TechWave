@@ -17,7 +17,7 @@ body{
 .navbar{
     height: auto;
     width: auto;
-    background-color: #1A0B2E;
+    background-color: #1d0837f8;
 }
 .nav-item{
     display: flex;
@@ -65,6 +65,10 @@ body{
     color:white;
     
 }
+
+
+/* banner-section....... */
+
 .banner{
 
     background-image: url("./B13-A02-TechWave/assets/hero-bg.png");
@@ -93,6 +97,10 @@ body{
 
     width: 100px;
     height: auto;
+ 
+
+}
+.banner-heading,.mic-icon{
 
 }
 .banner-descript{
@@ -246,7 +254,7 @@ body{
     color: white;
     text-align: center;
     width: 100%;
-    height:400px ;
+    height:550px ;
     justify-content: center;
     align-items: center;
 }
@@ -259,7 +267,6 @@ body{
     text-align: start;
     gap: 15px;
     border-radius: 20px;
-
 
 }
 .host{
@@ -303,7 +310,55 @@ footer p{
 /* responsive */
 
 @media screen and (max-width:576px){
+    .nav-list{
+        display: none;
+    }
+    .button2{
+    background-color: #1d0837f8;
+    width: 13px;
+    }
+    .primary-button{
+        display:none;
+    }
+    .about-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.choose-description{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   grid-auto-rows: minmax(180px, auto);
+  gap: 20px;
+
+}
+
+.feature-card{
+    display: grid;
+     grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+
+.host-info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #250D44;
+    margin: 60px;
+    padding: 15px;
+    text-align: center;
+    gap: 15px;
+    border-radius: 20px;
     
+
+}
+.footer-img{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 50px;
+   
+}
+
 }
 
 
