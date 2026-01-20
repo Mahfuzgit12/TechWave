@@ -59,12 +59,42 @@ body{
     #FB09B4 51%,
     #9100F8 100%
   );
-  padding: 8px;
+  padding: 12px;
   border-radius: 15px;
+    cursor: pointer;
+  overflow: hidden;
+
+  transition: transform 0.3s ease;
+  animation: gradientMove 4s linear infinite;
+
 }
 .button-text{
     color:white;
+      position: relative;
+  z-index: 5;
     
+}
+.primary-button-icon{
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.primary-button:hover{
+ transform: scale(1.8);
+}
+.primary-button:hover .primary-button-icon{
+  transform: translateX(20px);   
+  
+}
+.primary-button::after{
+    .subscribe-btn::after{
+  content: "";
+  position: relative;
+  inset: 2;
+  background:indigo;
+  filter: blur(20px);
+  opacity: 100%;
+  transition: opacity 0.3s ease;
+}
 }
 
 
